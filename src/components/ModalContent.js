@@ -3,7 +3,7 @@ import { Button } from 'bootstrap';
 
 export default function ModalComponent({isModalOpen, onClick}) {
   return (
-    <div>
+    <div className='relative'>
       <h1>Modal</h1>
       <div>
       <iframe
@@ -14,7 +14,7 @@ export default function ModalComponent({isModalOpen, onClick}) {
             title='modalAPI'
           ></iframe>
       </div>
-      <button onClick={onClick}>X</button>
+      <button className="absolute top-0 right-0" onClick={onClick}>X</button>
     </div>
   )
 }

@@ -17,7 +17,13 @@ code {
 }
 
 .main-hero {
-  background-image: url(./img/andrea-donato-MNu0n-3BIKs-unsplash-sm.jpg);
+  background-image: url(./img/andrea-donato-MNu0n-3BIKs-unsplash-lg.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+}
+.mainFont {
+  font-family: "Fleur De Leah", cursive;
+	color: whitesmoke;
+	text-shadow: 5px 2px black;
 }
