@@ -3,6 +3,7 @@ import ModalContent from './ModalContent';
 import JumbotronComponent from './JumbotronComponent';
 import NavbarComponent from './NavbarComponent';
 import ReactModal from 'react-modal';
+import HomeComponent from './HomeComponent';
 
 export default function MainComponent() {
 	const toggleModal = () => {
@@ -12,11 +13,13 @@ export default function MainComponent() {
 	const [ isModalOpen, handleModal ] = useState(false);
 
 	return (
-		<div className="main-hero h-screen flex mx-auto items-center">
+		<div className="">
 			<ReactModal isOpen={isModalOpen} preventScroll={true} shouldCloseOnOverlayClick={true} onRequestClose={toggleModal}>
 				<ModalContent onClick={toggleModal}/>
 			</ReactModal>
-			<JumbotronComponent onClick={toggleModal} />
+			<NavbarComponent onClick={toggleModal}/>
+			<JumbotronComponent />
+			<HomeComponent />
 		</div>
 	);
 }
