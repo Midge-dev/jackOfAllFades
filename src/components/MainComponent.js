@@ -4,6 +4,7 @@ import JumbotronComponent from './JumbotronComponent';
 import NavbarComponent from './NavbarComponent';
 import ReactModal from 'react-modal';
 import HomeComponent from './HomeComponent';
+import FooterComponent from './FooterComponent';
 
 export default function MainComponent() {
 	const toggleModal = () => {
@@ -20,6 +21,7 @@ export default function MainComponent() {
 			<NavbarComponent onClick={toggleModal}/>
 			<JumbotronComponent />
 			<HomeComponent />
+			<FooterComponent />
 		</div>
 	);
 }
