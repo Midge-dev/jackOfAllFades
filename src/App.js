@@ -14,6 +14,17 @@ export default function MainComponent() {
 
 	const [ isModalOpen, handleModal ] = useState(false);
 
+	const modalStyle = {
+		content: {
+		  top: '50%',
+		  left: '50%',
+		  bottom: 'auto',
+		  marginRight: '-50%',
+		  transform: 'translate(-50%, -50%)',
+		},
+	  };
+
+
 	return (
 		<div className="">
 			<ReactModal
@@ -21,6 +32,7 @@ export default function MainComponent() {
 				preventScroll={true}
 				shouldCloseOnOverlayClick={true}
 				onRequestClose={toggleModal}
+        style={modalStyle}
 			>
 				<ModalContent onClick={toggleModal} />
 			</ReactModal>

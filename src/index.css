@@ -18,8 +18,6 @@ code {
 }
 
 .main-hero {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.596), rgba(0,0,0,0.25)), url(/public/img/andrea-donato-MNu0n-3BIKs-unsplash-lg.jpg);
-  background-size: cover;
   color: rgba(0,0,0, 0.25);
   background-position: center;
   

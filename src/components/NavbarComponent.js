@@ -6,7 +6,7 @@ export default function NavbarComponent({ onClick }) {
 	return (
 		<Navbar sticky="top" bg="black" variant="dark" expand={false}>
 			<Container className="">
-				<Navbar.Brand className="text-white mainFont" href="#">
+				<Navbar.Brand className="text-white mainFont text-xl" href="#">
 					Jack of All Fades
 				</Navbar.Brand>
 				<div className="m-2 w-44 flex justify-between">
@@ -16,10 +16,10 @@ export default function NavbarComponent({ onClick }) {
 					<Navbar.Toggle aria-controls="offcanvasNavbar" />
 				</div>
 				<Navbar.Offcanvas id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" placement="end">
-					<Offcanvas.Header closeButton className="">
+					<Offcanvas.Header closeButton className="bg-[#080808] text-[#e7c9a9] card-font border-1 rounded border-[#e7c9a9]">
 						<Offcanvas.Title id="offcanvasNavbarLabel">Where to?</Offcanvas.Title>
 					</Offcanvas.Header>
-					<Offcanvas.Body>
+					<Offcanvas.Body className='bg-[#080808] card-font text-[#e7c9a9]'>
 						<Nav className="justify-content-end flex-grow-1 pe-3">
 							<Link to="/">Home</Link>
 							<Nav.Link>
