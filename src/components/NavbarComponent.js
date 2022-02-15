@@ -17,7 +17,7 @@ export default function NavbarComponent({ onClick }) {
 				</div>
 				<Navbar.Offcanvas id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" placement="end">
 					<Offcanvas.Header closeButton className="bg-[#080808] text-[#e7c9a9] card-font border-1 rounded border-[#e7c9a9]">
-						<Offcanvas.Title id="offcanvasNavbarLabel">Where to?</Offcanvas.Title>
+						<Offcanvas.Title bg="white" variant="light"id="offcanvasNavbarLabel">Where to?</Offcanvas.Title>
 					</Offcanvas.Header>
 					<Offcanvas.Body className='bg-[#080808] card-font text-[#e7c9a9]'>
 						<Nav className="justify-content-end flex-grow-1 pe-3">
