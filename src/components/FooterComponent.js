@@ -8,7 +8,7 @@ export default function FooterComponent() {
 				<div className="container">
 					<div className="row d-flex justify-content-between align-items-center">
 						<div className="col-12 col-sm-3">
-							<ul className="list-unstyled footerLink">
+							<ul className="list-unstyled card-font text-white">
 								<br />
 								<li><a href="#">Home</a></li>
 								<li><a href="services.html">Services</a></li>
@@ -17,13 +17,13 @@ export default function FooterComponent() {
 								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
-						<div className="col-sm-6 col-12 text-center footerLink">
+						<div className="col-sm-6 col-12 text-center card-font text-white">
 							<p>For all other inquiries:</p>
-							<h5>
+							<h4>
 								<a href="mailto:rachel@jackofallfades.co"
 									>rachel<wbr />@jackofallfades.co</a
 								>
-							</h5>
+							</h4>
 							<br />
 							<img
 								src="/img/Barbers-Chair-25-white.png"
@@ -32,7 +32,7 @@ export default function FooterComponent() {
 								alt=""
 							/>
 						</div>
-						<div className="col-12 col-sm-3 mt-2 footerLink text-center">
+						<div className="col-12 col-sm-3 mt-2 card-font text-center">
 							<h5>Social</h5>
 							<a
 								className="btn btn-social-icon btn-instagram"

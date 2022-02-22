@@ -19,7 +19,7 @@ export default function HomeComponent() {
 					<img src="img/beardedclear.png" alt="Get Jack" className="" />
 				</div>
 				<div className="w-full md:w-2/3">
-					<h1 className='banner flex justify-center text-white text-5xl'>Serving the Summerlin Area</h1>
+					<h1 className='banner flex justify-center text-white text-center text-5xl mt-4'>Serving the Summerlin Area</h1>
 					<div>
 				<iframe className='w-full h-96 mt-8 rounded-lg' title='GMaps'
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.9944486231657!2d-115.28914208394916!3d36.16668971080041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8bf86523a6539%3A0xe2cd727e83aa610d!2s430%20S%20Rampart%20Blvd%20%23150%2C%20Las%20Vegas%2C%20NV%2089145!5e0!3m2!1sen!2sus!4v1634099018536!5m2!1sen!2sus"
@@ -54,7 +54,7 @@ export default function HomeComponent() {
 			</Background>
 			<div className='text-white'>
 			<hr />
-			<h1 className="mainFont text-8xl ">Precision Styles</h1>
+			<h1 className="mainFont text-8xl text-center">Precision Styles</h1>
 			<hr />
 			</div>
 		</Parallax>
@@ -92,7 +92,7 @@ export default function HomeComponent() {
 			</Background>
 			<div className='text-white'>
 			<hr />
-			<h1 className="mainFont text-8xl ">10 years in the making</h1>
+			<h1 className="mainFont text-8xl text-center">10 years in the making</h1>
 			<hr />
 			</div>
 		</Parallax>

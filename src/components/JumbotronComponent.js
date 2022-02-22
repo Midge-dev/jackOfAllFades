@@ -16,7 +16,7 @@ export default function JumbotronComponent({ onClick }) {
 					}}
 				/>
 			</Background>
-			<div className='text-white'>
+			<div className='text-white text-center'>
 				<hr />
 				<h1 className="mainFont text-8xl ">Jack of All Fades</h1>
 				<hr />
